@@ -1,0 +1,64 @@
+body {
+    box-sizing: border-box;
+    background-image: url(/resources/IMG_20220513_151029.jpg);
+    background-repeat: no-repeat ;
+}
+
+.container { 
+    border: 1px solid rgb(7, 5, 8);
+    padding: 20px;
+    height: 350px;
+    width: 800px;
+    margin: 5px auto;
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+
+#squadron{
+    border: 1px solid rgb(7, 5, 8);
+    padding: 20px;
+    min-height: 300px;
+    height: auto;
+    width: 800px;
+    margin: 5px auto;
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 50px;
+    color: rgb(6, 15, 104);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(143, 4, 4);
+    padding: 25px;
+}
+
+
+#btn {
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    background-color: rebeccapurple;
+    box-shadow: 5px 5px 10px red;
+    border-radius: 40px;
+    color: white;
+}
+
+
+#output {
+
+    margin: 25px auto;
+    font-size: 50px;
+    color: rgb(6, 15, 104);
+}
+
+#btn:hover {
+    background-color: red;
+}
+#btn:active {
+    background-color: royalblue;
+}
+
